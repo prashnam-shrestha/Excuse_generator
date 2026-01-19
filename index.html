@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excuse Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Excuse Generator</h1>
+            <p>"Because honesty doesn't always get marks"</p>
+        </header><br>
+        <section class="input">
+            <label for="#" class="labeltxt">Why do you want Excuse?</label>
+            <select id="reason">
+                <option value="">Select Your Reason</option>
+                <option value="Late Assignment Submission">Late Assignment Submission</option>
+                <option value="Absent in Class">Absent in Class</option>
+                <option value="Missed Exam">Missed Exam</option>
+                <option value="Stuff against college code and conduct">Stuff against college code and conduct</option>
+
+            </select><br><br>
+
+            <label for="#" class="labeltxt">Teacher mood: </label>
+            <select name="#" id="mood">
+                <option value="">Select Teacher's Mood</option>
+                <option value="Happy">😀Happy</option>
+                <option value="Neutral">😐Neutral</option>
+                <option value="Angry">😡Angry</option>
+            </select><br><br>
+
+            <label for="#" class="labeltxt">Believability</label>
+            <input type="range" min="1" max="10"><br><br>
+
+        </section>
+        <button>Generate Excuse >></button>
+
+        <section class="output">
+            <p class="excuse">Test Excuse</p>
+
+            <div class="info">
+                <span>🎓Believability : 5/10</span>
+                <span>🤗Reaction : Probably Accepts</span>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
