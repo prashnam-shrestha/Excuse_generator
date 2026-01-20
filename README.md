@@ -1,4 +1,6 @@
 # Excuse Generator
+ 🚀 Check out the live demo [here](https://prashnam-shrestha.github.io/Excuse_generator/)
+
 
 ### 📝 What is this?
 A simple web tool that generates creative excuses for students. Whether you missed a deadline or skipped class, this app helps you come up with a lie based on your teacher's mood and how believable you want to be.
